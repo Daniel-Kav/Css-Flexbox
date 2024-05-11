@@ -13,202 +13,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 
 
 
   <title>Frontend Mentor | News homepage</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    main {
-      min-height: 100vh;
-      padding: 2em 0;
-      font-family: 'Inter', sans-serif;
-      /* overflow:hidden; */
-    }
-
-    .nav-links li {
-      display: inline;
-      padding: 0 1.4em;
-      color: hsl(236, 13%, 42%)
-    }
-
-    .nav-links li:hover {
-      color: hsl(5, 85%, 63%);
-      cursor: pointer;
-    }
-
-    .hero {
-      margin: 2em 0 3em;
-    }
-
-    .hero-left img {
-      width: 100%;
-      height: auto;
-      object-fit: cover;
-    }
-
-    .hero-left h1 {
-      font-size: 3.5rem;
-      padding-right: 2em;
-    }
-
-    .hero-left p {
-      font-size: 15px;
-      color: hsl(236, 13%, 42%);
-      line-height: 1.6em;
-      margin: 1.5em 0;
-    }
-
-    .hero-left button {
-      padding: 1em 3em;
-      background-color: hsl(5, 85%, 63%);
-      text-transform: uppercase;
-      letter-spacing: .4em;
-      color: #fff;
-      border: none;
-
-    }
-
-    .hero-left button:hover {
-      background-color: hsl(240, 100%, 5%);
-      cursor: pointer;
-    }
-
-    .hero-right-bg {
-      background-color: hsl(240, 100%, 5%);
-      height: 100%;
-    }
-
-    .hero-right .title {
-      font-size: 2em;
-      flex: 1;
-      color: hsl(35, 77%, 62%);
-    }
-
-    .hero-right .items {
-      flex: 6;
-    }
-
-    .hero-right .item h1 {
-      color: #fff;
-      font-size: 1.6rem;
-    }
-
-    .hero-right .item h1:hover {
-      color: hsl(35, 77%, 62%);
-      cursor: pointer;
-    }
-
-    .hero-right .item p {
-      color: hsl(233, 8%, 79%);
-    }
-
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-
-
-    .extra img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-
-    .extra .text h1,
-    .extra .text p,
-    .extra .text h2 {
-      margin-bottom: 0
-    }
-
-    .extra .text h1 {
-      color: hsl(233, 8%, 79%);
-    }
-
-    .extra .text h2 {
-      color: hsl(240, 100%, 5%);
-      font-size: 18px;
-      font-weight: 700;
-    }
-
-    .extra .text h2:hover {
-      color: hsl(5, 85%, 63%);
-      cursor: pointer;
-    }
-
-    .extra .text p {
-      color: hsl(236, 13%, 42%);
-    }
-
-    .hamburger {
-      display: none;
-    }
-
-
-
-    @media (max-width: 600px) {
-
-      main {
-        padding: 2em .5em;
-      }
-
-      .hero-left img {
-        height: 35vh;
-      }
-
-      .hero-left h1 {
-        font-size: 2.8rem;
-        padding-right: 0;
-      }
-
-      .hero-left p {
-        font-size: 15px;
-        color: hsl(236, 13%, 42%);
-        line-height: 1.6em;
-        margin: 1.5em 0;
-      }
-
-      .hamburger {
-        display: block
-      }
-
-      .menu {
-        background-color: #fff;
-        box-shadow: -5px 0 200px hsl(0, 0%, 53%);
-        height: 100vh;
-        width: 70%;
-        position: absolute;
-        top: 0;
-        right: 0;
-        transform: translateX(400px);
-        /* transition: all 0.4s ease; */
-        display: none;
-      }
-
-      .close-menu svg {
-        position: absolute;
-        top: 30px;
-        right: 20px;
-      }
-
-      .menu .nav-links {
-        margin-top: 6em;
-        padding: 2em;
-      }
-
-      .menu .nav-links li {
-        padding: .7em 0;
-        font-size: 1.2rem;
-        color: hsl(240, 100%, 5%)
-      }
-
-    }
-  </style>
 </head>
 
 <body>
@@ -370,7 +181,7 @@
 
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Daniel Kavatha</a>.
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
